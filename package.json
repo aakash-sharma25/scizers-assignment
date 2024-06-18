@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "yet-another-react-lightbox": "^3.20.0"
   },
   "devDependencies": {
     "postcss": "^8",
