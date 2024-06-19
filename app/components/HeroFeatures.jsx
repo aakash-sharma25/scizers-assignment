@@ -4,7 +4,7 @@ import { HeroFeaturesImages } from "./data/constant";
 
 function HeroFeatures() {
   return (
-    <div className="flex justify-evenly items-center py-10 flex-wrap gap-5 bg-[#F4F9FF] px-5">
+    <div data-aos="fade-up" className="flex justify-evenly items-center py-10 flex-wrap gap-5 bg-[#F4F9FF] px-5">
       {HeroFeaturesImages?.map((arr, index) => (
         <div
           key={index}

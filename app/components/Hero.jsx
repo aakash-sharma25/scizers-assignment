@@ -28,7 +28,7 @@ function Hero() {
           {/* hero text div */}
           <div className=" p-5 my-[200px] flex flex-wrap justify-center md:justify-between text-white items-center gap-y-10  w-screen sm:w-full">
             {/* left side text div */}
-            <div className=" flex flex-col gap-5 md:w-[498px] sm:w-full ">
+            <div data-aos="fade-right" className=" flex flex-col gap-5 md:w-[498px] sm:w-full ">
               <h1 className="md:text-4xl sm:text-2xl font-bold">
                 HARBOUR LIGHTS DE
                 <span className=" text-[#17ABFF]">GRESOGONO</span>
@@ -56,7 +56,7 @@ function Hero() {
             </div>
 
             {/* right side text div */}
-            <div className=" bg-blurry-dark flex flex-col gap-3 w-[330px] justify-center p-8 rounded-lg">
+            <div data-aos="fade-left" className=" bg-blurry-dark flex flex-col gap-3 w-[330px] justify-center p-8 rounded-lg">
               <p className=" text-[13px]">PRICING STARTS FROM</p>
               <p className=" text-4xl font-bold">$ 425,000</p>
               <p className=" text-xl">AED 1.3 Million</p>

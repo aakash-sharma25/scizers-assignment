@@ -29,6 +29,7 @@ function Features() {
         <div className=" flex flex-wrap gap-5 my-3 justify-center md:justify-between items-center text-[#00357B]  w-full">
           {FeaturesImages.map((arr, index) => (
             <div
+            data-aos="zoom-in"
               key={index}
               className=" flex flex-col gap-4 w-[240px] h-[300px] p-4 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] rounded-xl items-center justify-center"
             >

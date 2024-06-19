@@ -7,7 +7,11 @@ function Gallary() {
   return (
     <div className=" max-w-[1122px]  mx-auto">
       <div className="flex flex-col gap-y-3 justify-center items-center ">
-        <div className="w-full rounded-lg " >
+        <div
+          data-aos="zoom-in"
+          data-aos-easing="ease-in-back"
+          className="w-full rounded-lg "
+        >
           <Image
             src={gallary1}
             height={500}
@@ -19,6 +23,7 @@ function Gallary() {
         <div className=" flex flex-wrap w-full gap-3 justify-center items-center  md:justify-between ">
           {GallaryImages.map((arr, index) => (
             <div
+            data-aos="flip-up"
               key={index}
               className=" w-[46%] md:w-[24%] flex items-center justify-center"
             >
